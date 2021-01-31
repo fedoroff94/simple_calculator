@@ -1,0 +1,68 @@
+.title {
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 30px;
+    color: rebeccapurple;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.calc {
+    border: 2px solid rgba(4, 0, 255, 0.288);
+    width: 300px;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: rgba(188, 206, 244, 0.3)
+}
+
+.calc__display {
+    margin: 0 auto;
+    width: 280px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.calc__display_input {
+    width: 275px;
+    height: 65px;
+    margin: 0 auto;
+    font-size: 30px;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rebeccapurple;
+    background-color: rgba(0, 255, 191, 0.158);
+    text-align: right;
+}
+
+.calc__body_buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 280px;
+    margin: 10px auto;
+    height: 280px;
+    justify-content: inherit;
+    align-content: flex-start;
+    margin-top: 20px;
+}
+
+.button button {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    color: rebeccapurple;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    background-color: rgba(255, 158, 231, .3);
+    border-radius: 5px;
+}
+
+.button button:hover {
+    background-color: rgba(255, 0, 191, 0.3);
+    transition: ease-in-out .5s;
+}
+
+button.current_button_click {
+    background-color: #ff001c;
+}
